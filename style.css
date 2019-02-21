@@ -1,0 +1,91 @@
+/*jack*/
+
+*{
+    margin:0;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height:50px;
+    background: white;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14px;
+    outline:1px solid lightgray;
+}
+
+.navi{
+    height:35px;
+}
+
+#nyti{
+    height:50px;
+}
+
+#head{
+    position: fixed;
+    top: 0px;
+}
+
+#foot{
+    position: fixed;
+    bottom: 0px;
+}
+
+nav div{
+    margin:5px;
+}
+
+#navcenter{
+    margin: auto;
+}
+
+#navcenter{
+    margin: right;
+}
+
+#mainimage{
+    width:100%
+}
+
+main{
+    padding: 100px 10% 100px 10%;
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+.centered{
+    padding: 5px 20% 5px 20%;
+    margin:  0;
+}
+
+button{
+    border-radius:3px;
+    height:34px;
+    border: 1px solid steelblue;
+    background:slategrey;
+    color: aliceblue;
+}
+
+button:hover{
+    background:steelblue;
+}
+
+#article{
+    margin: 20px 0 0 0;
+    font-size: 20px;
+}
+
+#caption{
+    color: gray;
+    font-size:15px;
+}
+
+#photocred{
+    font-size:12px;
+}
+
+h1{
+    font-family:nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size:36px;
+}
